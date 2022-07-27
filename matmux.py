@@ -34,7 +34,7 @@ class Solution:
         m2_1 = m1[1][0]*m2[0][0] + m1[1][1]*m2[1][0]
         m2_2 = m1[1][0]*m2[0][1] + m1[1][1]*m2[1][1]
 
-        return [[m1_1,m1_2],[m2_1,m1_2]]
+        return [[m1_1,m1_2],[m2_1,m2_2]]
 
 def main():
     array1 = input().split(" ")
